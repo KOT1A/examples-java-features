@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Метод filter возвращает новый поток с элементами, прошедшими проверку.<br>
- * В аргументах принимает predicate<br>
+ * В аргументах принимает predicate.<br>
  * Predicate — функциональный интерфейс (принимает объект и возвращает true или false).
  */
 public class FilterStreamComponent {

@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Метод distinct() возвращает новый стрим, в котором удалены все дубликаты элементов. Под капотом он использует
- * equals() и hashCode() объектов.
+ * equals() и hashCode() объектов
  */
 public class DistinctStreamComponent {
 
