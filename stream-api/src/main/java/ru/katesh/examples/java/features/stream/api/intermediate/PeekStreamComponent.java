@@ -1,4 +1,4 @@
-package java.ru.katesh.examples.java.stream.api.components.intermediate;
+package ru.katesh.examples.java.features.stream.api.intermediate;
 
 import java.util.List;
 import java.util.stream.Stream;

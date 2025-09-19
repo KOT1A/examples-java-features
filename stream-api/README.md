@@ -1,4 +1,4 @@
-# examples-java-stream-api
+# stream-api
 Примеры использования Java Stream API
 
 ___

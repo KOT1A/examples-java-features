@@ -11,6 +11,7 @@
 
     <modules>
         <module>stream-api</module>
+        <module>optional</module>
     </modules>
 
     <properties>

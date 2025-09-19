@@ -1,4 +1,4 @@
-package java.ru.katesh.examples.java.stream.api.components.terminal;
+package ru.katesh.examples.java.features.stream.api.terminal;
 
 import java.util.Arrays;
 import java.util.Iterator;
