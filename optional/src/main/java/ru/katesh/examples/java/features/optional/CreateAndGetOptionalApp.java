@@ -3,7 +3,7 @@ package ru.katesh.examples.java.features.optional;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
-public class OptionalApp {
+public class CreateAndGetOptionalApp {
 
     /**
      * Демонстрация создания Optional и методов isPresent, isEmpty, get
@@ -14,7 +14,6 @@ public class OptionalApp {
         Optional<String> notNullOptional = Optional.ofNullable("Hello from ofNullable");
         Optional<String> emptyOptional = Optional.empty();
 
-        System.out.println();
         //Если значение внутри Optional не null, то вернётся true, иначе false
         System.out.println(nameOptional.isPresent());
         System.out.println(nullOptional.isPresent());
