@@ -1,4 +1,4 @@
-package ru.katesh.examples.java.stream.api.components.intermediate;
+package java.ru.katesh.examples.java.stream.api.components.intermediate;
 
 import java.util.ArrayList;
 import java.util.Arrays;

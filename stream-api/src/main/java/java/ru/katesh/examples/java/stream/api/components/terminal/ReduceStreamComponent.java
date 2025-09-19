@@ -1,4 +1,4 @@
-package ru.katesh.examples.java.stream.api.components.terminal;
+package java.ru.katesh.examples.java.stream.api.components.terminal;
 
 import java.util.List;
 
