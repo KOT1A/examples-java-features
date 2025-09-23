@@ -150,6 +150,7 @@ public class CollectStreamComponent {
         collectStreamComponent.collectToArray();
         collectStreamComponent.collectToMap();
         collectStreamComponent.collectToString();
+        collectStreamComponent.collectAndThen();
         collectStreamComponent.collectStatistic();
         collectStreamComponent.collectGrouping();
         collectStreamComponent.collectGroupingWithGrouping();
