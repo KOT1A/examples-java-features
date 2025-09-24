@@ -14,8 +14,10 @@ public class SortedStreamMethod {
      */
     public void sorted() {
         Integer[] arr = {1, 9, 2, 8, 3, 7, 4, 6, 5, 13, 14, 15, 10, 11, 12};
+
         List<Integer> list = Arrays.stream(arr)
                 .toList();
+
         System.out.println("Массив отсортированный по возрастанию = " + list);
     }
 
@@ -24,9 +26,11 @@ public class SortedStreamMethod {
      */
     public void sortedWithComparator() {
         Integer[] arr = {1, 9, 2, 8, 3, 7, 4, 6, 5, 13, 14, 15, 10, 11, 12};
+
         List<Integer> list = Arrays.stream(arr)
                 .sorted((o1, o2) -> o2 - o1)
                 .toList();
+
         System.out.println("Массив отсортированный по убыванию = " + list);
     }
 

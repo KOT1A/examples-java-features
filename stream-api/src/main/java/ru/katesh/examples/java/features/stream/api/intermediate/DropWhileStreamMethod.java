@@ -14,9 +14,11 @@ public class DropWhileStreamMethod {
      */
     public void dropWhile() {
         List<String> words = List.of("a", "b", "c", "stop", "d", "e");
+
         List<String> result = words.stream()
                 .dropWhile(w -> !w.equals("stop"))
                 .toList();
+
         System.out.println(result);
     }
 

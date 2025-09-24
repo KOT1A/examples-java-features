@@ -14,6 +14,7 @@ public class DistinctStreamMethod {
      */
     public void distinct() {
         String[] arr = {"1", "2", "3", "4", "5", "2", "3", "4"};
+
         List<String> arrUniq = Arrays.stream(arr)
                 .distinct()
                 .toList();

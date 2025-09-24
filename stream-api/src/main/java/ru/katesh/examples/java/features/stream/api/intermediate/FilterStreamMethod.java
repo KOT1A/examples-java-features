@@ -16,6 +16,7 @@ public class FilterStreamMethod {
      */
     public void filter() {
         String[] array = {"Aaaa", "abba", "Aa", "Bara", "Abba"};
+
         List<String> list = Arrays.stream(array)
                 .filter(s -> s.length() > 3 && s.startsWith("A"))
                 .toList();
@@ -30,6 +31,7 @@ public class FilterStreamMethod {
      */
     public void doubleFilter() {
         String[] array = {"Aaaa", "abba", "Aa", "Bara", "Abba"};
+
         List<String> list = Arrays.stream(array)
                 .filter(s -> s.length() > 3 && s.startsWith("A"))
                 .filter(s -> s.startsWith("A"))

@@ -11,8 +11,8 @@ public class PeekStreamMethod {
     /**
      * Пример работы метода peek с выводом промежуточных результатов в консоль
      */
-    public void peek() {
-        List<String> result = Stream.of("one", "two", "three")
+    public List<String> peek() {
+        return Stream.of("one", "two", "three")
                 .peek(s -> System.out.println("До фильтра: " + s))
                 .filter(s -> s.length() > 3)
                 .peek(s -> System.out.println("После фильтра: " + s))

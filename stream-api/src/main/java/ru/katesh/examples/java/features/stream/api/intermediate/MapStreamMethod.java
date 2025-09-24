@@ -13,6 +13,7 @@ public class MapStreamMethod {
      */
     public void map() {
         List<String> list = List.of("Aaaa", "abba", "Aa", "Bara", "Abba");
+
         List<String> newList = list.stream()
                 .map(String::toUpperCase)
                 .toList();
