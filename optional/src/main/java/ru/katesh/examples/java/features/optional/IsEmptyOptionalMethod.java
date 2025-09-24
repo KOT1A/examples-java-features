@@ -7,7 +7,7 @@ public class IsEmptyOptionalMethod {
     /**
      * Метод возвращает true, если Optional пустой, иначе false
      */
-    public void isPresent() {
+    public void isEmpty() {
         Optional<String> javaOptional = Optional.of("Java");
         Optional<String> emptyOptional = Optional.empty();
 
@@ -20,6 +20,6 @@ public class IsEmptyOptionalMethod {
      */
     public static void main(String[] args){
         IsEmptyOptionalMethod isEmptyOptionalMethod = new IsEmptyOptionalMethod();
-        isEmptyOptionalMethod.isPresent();
+        isEmptyOptionalMethod.isEmpty();
     }
 }
