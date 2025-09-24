@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Примеры terminal операций Java Stream API
+ * Примеры terminal операций Java Stream API: count, min, max, forEach, toArray, match, find, iterator
  */
 public class OtherTerminalStreamMethod {
 

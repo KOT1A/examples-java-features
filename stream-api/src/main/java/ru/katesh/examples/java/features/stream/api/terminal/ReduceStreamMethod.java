@@ -14,11 +14,12 @@ public class ReduceStreamMethod {
      */
     public void reduceWithoutStartValue(){
         List<Double> list = List.of(10.0, 5.0, 15.0, 3.0);
+
         Double sum = list.stream()
                 .reduce(Double::sum)
                 .orElse(null);
-        double sumTwo = 0.0;
 
+        double sumTwo = 0.0;
         for(Double a : list) {
             sumTwo += a;
         }
@@ -32,10 +33,11 @@ public class ReduceStreamMethod {
      */
     public void reduceWithStartValue(Double startValue){
         List<Double> list = List.of(10.0, 5.0, 15.0, 3.0);
+
         Double sum = list.stream()
                 .reduce(startValue, Double::sum);
-        double sumTwo = startValue;
 
+        double sumTwo = startValue;
         for(Double a : list) {
             sumTwo += a;
         }
