@@ -7,7 +7,7 @@ import java.util.List;
  * элемент, для которого предикат false с него и до конца все элементы попадают в результат. Это ленивый метод, данные
  * реально обрабатываются только при терминальной операции.
  */
-public class DropWhileStreamComponent {
+public class DropWhileStreamMethod {
 
     /**
      * Метод пропускает элементы пока не встретит слово stop
@@ -24,7 +24,7 @@ public class DropWhileStreamComponent {
      * Демонстрация работы метода dropWhile
      */
     public static void main(String[] args) {
-        DropWhileStreamComponent dropWhileStreamComponent = new DropWhileStreamComponent();
-        dropWhileStreamComponent.dropWhile();
+        DropWhileStreamMethod dropWhileStreamMethod = new DropWhileStreamMethod();
+        dropWhileStreamMethod.dropWhile();
     }
 }

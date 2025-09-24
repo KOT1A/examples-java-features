@@ -7,7 +7,7 @@ import java.util.List;
  * Метод distinct() возвращает новый стрим, в котором удалены все дубликаты элементов. Под капотом он использует
  * equals() и hashCode() объектов
  */
-public class DistinctStreamComponent {
+public class DistinctStreamMethod {
 
     /**
      * Метод оставляет уникальные элементы массива и выводит их в консоль
@@ -25,7 +25,7 @@ public class DistinctStreamComponent {
      * Демонстрация работы метода distinct
      */
     public static void main(String[] args){
-        DistinctStreamComponent distinctStreamComponent = new DistinctStreamComponent();
-        distinctStreamComponent.distinct();
+        DistinctStreamMethod distinctStreamMethod = new DistinctStreamMethod();
+        distinctStreamMethod.distinct();
     }
 }

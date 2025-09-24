@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Метод skip пропускает первые n элементов стрима и возвращает новый стрим, начиная с n+1 элемента
  */
-public class SkipStreamComponent {
+public class SkipStreamMethod {
 
     /**
      * Метод пропускает первые 2 элемента, а остальные добавляет в список
@@ -24,7 +24,7 @@ public class SkipStreamComponent {
      * Демонстрация работы метода skip
      */
     public static void main(String[] args){
-        SkipStreamComponent skipStreamComponent = new SkipStreamComponent();
-        skipStreamComponent.skip();
+        SkipStreamMethod skipStreamMethod = new SkipStreamMethod();
+        skipStreamMethod.skip();
     }
 }

@@ -8,7 +8,7 @@ import java.util.List;
  * В аргументах принимает predicate.<br>
  * Predicate — функциональный интерфейс (принимает объект и возвращает true или false).
  */
-public class FilterStreamComponent {
+public class FilterStreamMethod {
 
     /**
      * Метод отбирает по фильтру все элементы, у которых длинна больше 3 и начинаются они с буквы A и выводит их в
@@ -42,8 +42,8 @@ public class FilterStreamComponent {
      * Демонстрация работы метода filter
      */
     public static void main(String[] args) {
-        FilterStreamComponent filterStreamComponent = new FilterStreamComponent();
-        filterStreamComponent.filter();
-        filterStreamComponent.doubleFilter();
+        FilterStreamMethod filterStreamMethod = new FilterStreamMethod();
+        filterStreamMethod.filter();
+        filterStreamMethod.doubleFilter();
     }
 }

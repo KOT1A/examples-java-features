@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Метод flatMap трансформирует объект в поток, а затем соединяет эти потоки в один
  */
-public class FlatMapStreamComponent {
+public class FlatMapStreamMethod {
 
     /**
      * Преобразуем список строк в слова
@@ -46,8 +46,8 @@ public class FlatMapStreamComponent {
      * Демонстрация работы метода flatMap
      */
     public static void main(String[] args){
-        FlatMapStreamComponent flatMapStreamComponent = new FlatMapStreamComponent();
-        flatMapStreamComponent.flatMap();
-        flatMapStreamComponent.flatMapWithListOfList();
+        FlatMapStreamMethod flatMapStreamMethod = new FlatMapStreamMethod();
+        flatMapStreamMethod.flatMap();
+        flatMapStreamMethod.flatMapWithListOfList();
     }
 }

@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Метод takeWhile берёт элементы из стрима с начала, пока выполняется условие
  */
-public class TakeWhileStreamComponent {
+public class TakeWhileStreamMethod {
 
     /**
      * Метод берёт элементы до тех пор, пока не встретит 0
@@ -24,7 +24,7 @@ public class TakeWhileStreamComponent {
      * Демонстрация работы метода takeWhile
      */
     public static void main(String[] args){
-        TakeWhileStreamComponent takeWhileStreamComponent = new TakeWhileStreamComponent();
-        takeWhileStreamComponent.takeWhile();
+        TakeWhileStreamMethod takeWhileStreamMethod = new TakeWhileStreamMethod();
+        takeWhileStreamMethod.takeWhile();
     }
 }

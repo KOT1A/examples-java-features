@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Метод limit возвращает новый поток, содержащий не больше
  */
-public class LimitStreamComponent {
+public class LimitStreamMethod {
 
     /**
      * Пример использования метода limit
@@ -23,7 +23,7 @@ public class LimitStreamComponent {
      * Демонстрация работы метода sorted
      */
     public static void main(String[] args){
-        LimitStreamComponent limitStreamComponent = new LimitStreamComponent();
-        limitStreamComponent.limit();
+        LimitStreamMethod limitStreamMethod = new LimitStreamMethod();
+        limitStreamMethod.limit();
     }
 }

@@ -8,7 +8,7 @@ import java.util.stream.Stream;
  * Метод collect - это терминальная операция, которая преобразует поток в другой объект: список, множество, строку,
  * карту и т.д.
  */
-public class CollectStreamComponent {
+public class CollectStreamMethod {
 
     /**
      * Примеры преобразования потока строк в коллекции и вывод их в консоль
@@ -145,15 +145,15 @@ public class CollectStreamComponent {
      * Демонстрация работы метода collect с различными параметрами
      */
     public static void main(String[] args){
-        CollectStreamComponent collectStreamComponent = new CollectStreamComponent();
-        collectStreamComponent.collectToCollection();
-        collectStreamComponent.collectToArray();
-        collectStreamComponent.collectToMap();
-        collectStreamComponent.collectToString();
-        collectStreamComponent.collectAndThen();
-        collectStreamComponent.collectStatistic();
-        collectStreamComponent.collectGrouping();
-        collectStreamComponent.collectGroupingWithGrouping();
-        collectStreamComponent.collectPartition();
+        CollectStreamMethod collectStreamMethod = new CollectStreamMethod();
+        collectStreamMethod.collectToCollection();
+        collectStreamMethod.collectToArray();
+        collectStreamMethod.collectToMap();
+        collectStreamMethod.collectToString();
+        collectStreamMethod.collectAndThen();
+        collectStreamMethod.collectStatistic();
+        collectStreamMethod.collectGrouping();
+        collectStreamMethod.collectGroupingWithGrouping();
+        collectStreamMethod.collectPartition();
     }
 }

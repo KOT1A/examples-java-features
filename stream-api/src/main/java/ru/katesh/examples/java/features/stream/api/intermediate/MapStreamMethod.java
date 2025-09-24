@@ -6,7 +6,7 @@ import java.util.List;
  * Метод map возвращает новый поток с преобразованными элементами.<br>
  * В аргументах принимает Function, которая преобразует объект первого типа, в объект второго типа.
  */
-public class MapStreamComponent {
+public class MapStreamMethod {
 
     /**
      * Метод преобразует все элементы списка строк к верхнему регистру и выводит их в консоль
@@ -24,7 +24,7 @@ public class MapStreamComponent {
      * Демонстрация работы метода map
      */
     public static void main(String[] args) {
-        MapStreamComponent mapStreamComponent = new MapStreamComponent();
-        mapStreamComponent.map();
+        MapStreamMethod mapStreamMethod = new MapStreamMethod();
+        mapStreamMethod.map();
     }
 }

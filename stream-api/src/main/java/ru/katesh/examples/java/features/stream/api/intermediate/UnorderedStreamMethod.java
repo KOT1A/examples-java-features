@@ -11,7 +11,7 @@ import java.util.List;
  * ускорить выполнение при работе вместе с методами distinct, limit и skip, так как также не нужно поддерживать соблюдение
  * порядка.
  */
-public class UnorderedStreamComponent {
+public class UnorderedStreamMethod {
 
     /**
      * Пример выполнения unordered на последовательном и параллельном стриме
@@ -36,7 +36,7 @@ public class UnorderedStreamComponent {
      * Демонстрация работы метода unordered
      */
     public static void main(String[] args){
-        UnorderedStreamComponent unorderedStreamComponent = new UnorderedStreamComponent();
-        unorderedStreamComponent.unordered();
+        UnorderedStreamMethod unorderedStreamMethod = new UnorderedStreamMethod();
+        unorderedStreamMethod.unordered();
     }
 }

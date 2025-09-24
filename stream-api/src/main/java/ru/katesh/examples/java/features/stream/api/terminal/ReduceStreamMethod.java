@@ -6,7 +6,7 @@ import java.util.List;
  * Метод reduce берёт все элементы стрима и сворачивает их в одно значение, используя начальное значение (identity)
  * (опционально) и аккумулятор — функцию, которая объединяет два значения.
  */
-public class ReduceStreamComponent {
+public class ReduceStreamMethod {
 
     /**
      * Метод складывает значения списка используя метод reduce и проверяет туже сумму сложением через цикл, в консоль
@@ -47,8 +47,8 @@ public class ReduceStreamComponent {
      * Демонстрация работы метода reduce
      */
     public static void main(String[] args){
-        ReduceStreamComponent reduceStreamComponent = new ReduceStreamComponent();
-        reduceStreamComponent.reduceWithoutStartValue();
-        reduceStreamComponent.reduceWithStartValue(2000.0);
+        ReduceStreamMethod reduceStreamMethod = new ReduceStreamMethod();
+        reduceStreamMethod.reduceWithoutStartValue();
+        reduceStreamMethod.reduceWithStartValue(2000.0);
     }
 }

@@ -7,7 +7,7 @@ import java.util.List;
  * Метод sorted в Java Stream API относится к промежуточным операциям и является stateful (он должен видеть весь
  * поток, чтобы отсортировать)
  */
-public class SortedStreamComponent {
+public class SortedStreamMethod {
 
     /**
      * Пример работы сортировки
@@ -34,8 +34,8 @@ public class SortedStreamComponent {
      * Демонстрация работы метода sorted
      */
     public static void main(String[] args){
-        SortedStreamComponent sortedStreamComponent = new SortedStreamComponent();
-        sortedStreamComponent.sorted();
-        sortedStreamComponent.sortedWithComparator();
+        SortedStreamMethod sortedStreamMethod = new SortedStreamMethod();
+        sortedStreamMethod.sorted();
+        sortedStreamMethod.sortedWithComparator();
     }
 }

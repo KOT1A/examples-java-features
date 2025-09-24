@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 /**
  * Метод peek ничего не меняет, а просто позволяет посмотреть, что творится внутри потока по пути
  */
-public class PeekStreamComponent {
+public class PeekStreamMethod {
 
     /**
      * Пример работы метода peek с выводом промежуточных результатов в консоль
@@ -25,7 +25,7 @@ public class PeekStreamComponent {
      * Демонстрация работы метода flatMap
      */
     public static void main(String[] args){
-        PeekStreamComponent peekStreamComponent = new PeekStreamComponent();
-        peekStreamComponent.peek();
+        PeekStreamMethod peekStreamMethod = new PeekStreamMethod();
+        peekStreamMethod.peek();
     }
 }

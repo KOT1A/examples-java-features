@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Примеры terminal операций Java Stream API
  */
-public class OtherTerminalStreamComponent {
+public class OtherTerminalStreamMethod {
 
     /**
      * Метод count выводит количество элементов в списке
@@ -122,14 +122,14 @@ public class OtherTerminalStreamComponent {
      * Демонстрация работы терминальных методов
      */
     public static void main(String[] args){
-        OtherTerminalStreamComponent otherTerminalStreamComponent = new OtherTerminalStreamComponent();
-        otherTerminalStreamComponent.count();
-        otherTerminalStreamComponent.min();
-        otherTerminalStreamComponent.max();
-        otherTerminalStreamComponent.forEach();
-        otherTerminalStreamComponent.toArray();
-        otherTerminalStreamComponent.match();
-        otherTerminalStreamComponent.find();
-        otherTerminalStreamComponent.iterator();
+        OtherTerminalStreamMethod otherTerminalStreamMethod = new OtherTerminalStreamMethod();
+        otherTerminalStreamMethod.count();
+        otherTerminalStreamMethod.min();
+        otherTerminalStreamMethod.max();
+        otherTerminalStreamMethod.forEach();
+        otherTerminalStreamMethod.toArray();
+        otherTerminalStreamMethod.match();
+        otherTerminalStreamMethod.find();
+        otherTerminalStreamMethod.iterator();
     }
 }
