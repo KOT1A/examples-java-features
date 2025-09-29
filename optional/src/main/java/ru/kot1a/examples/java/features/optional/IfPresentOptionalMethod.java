@@ -5,7 +5,7 @@ import java.util.Optional;
 public class IfPresentOptionalMethod {
 
     /**
-     * Метод выполняет действие переданное в аргументе consumer над значением Optional, если оно есть
+     * Метод выполняет действие переданное в аргументе consumer над значением Optional, если оно есть.
      */
     public void ifPresent() {
         Optional<String> nameOptional = Optional.of("Java");
@@ -16,7 +16,7 @@ public class IfPresentOptionalMethod {
     }
 
     /**
-     * Демонстрация работы методов ifPresent
+     * Демонстрация работы методов ifPresent.
      */
     public static void main(String[] args){
         IfPresentOptionalMethod ifPresentOptionalMethod = new IfPresentOptionalMethod();

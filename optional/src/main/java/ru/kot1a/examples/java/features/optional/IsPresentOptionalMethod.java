@@ -5,7 +5,7 @@ import java.util.Optional;
 public class IsPresentOptionalMethod {
 
     /**
-     * Метод возвращает true, если Optional содержит значение, иначе false
+     * Метод возвращает true, если Optional содержит значение, иначе false.
      */
     public void isPresent() {
         Optional<String> javaOptional = Optional.of("Java");
@@ -16,7 +16,7 @@ public class IsPresentOptionalMethod {
     }
 
     /**
-     * Демонстрация работы метода isPresent
+     * Демонстрация работы метода isPresent.
      */
     public static void main(String[] args){
         IsPresentOptionalMethod isPresentOptionalMethod = new IsPresentOptionalMethod();

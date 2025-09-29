@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 public class CollectStreamMethod {
 
     /**
-     * Примеры преобразования потока строк в коллекции и вывод их в консоль
+     * Примеры преобразования потока строк в коллекции и вывод их в консоль.
      */
     public void collectToCollection() {
         List<String> collectListNames = Stream.of("Kate", "Max", "Anna")
@@ -29,7 +29,7 @@ public class CollectStreamMethod {
     }
 
     /**
-     * Пример преобразования потока строк в массив и вывод его в консоль
+     * Пример преобразования потока строк в массив и вывод его в консоль.
      */
     public void collectToArray() {
         Object[] toArrayNames = Stream.of("Kate", "Max", "Anna")
@@ -39,7 +39,7 @@ public class CollectStreamMethod {
     }
 
     /**
-     * Пример преобразования потока строк в Map и вывод её в консоль
+     * Пример преобразования потока строк в Map и вывод её в консоль.
      */
     public void collectToMap() {
         Map<Integer, String> map = Stream.of("Kate", "Max", "Anna")
@@ -53,7 +53,7 @@ public class CollectStreamMethod {
     }
 
     /**
-     * Пример преобразования потока строк в строки и вывод их в консоль
+     * Пример преобразования потока строк в строки и вывод их в консоль.
      */
     public void collectToString() {
         String stringJoin = Stream.of("Kate", "Max", "Anna")
@@ -71,7 +71,7 @@ public class CollectStreamMethod {
     }
 
     /**
-     * Пример склейки элементов потока с применением дополнительной функции после
+     * Пример склейки элементов потока с применением дополнительной функции после.
      */
     public void collectAndThen() {
         String str = Stream.of("Alice", "Bob", "Charlie")
@@ -109,7 +109,7 @@ public class CollectStreamMethod {
     }
 
     /**
-     * Пример группировки элементов потока в Map по длине, хранящую группы элементов
+     * Пример группировки элементов потока в Map по длине, хранящую группы элементов.
      */
     public void collectGrouping() {
         Map<Integer, List<String>> groups = Stream.of("Kate", "Max", "Anna", "John", "Li")
@@ -119,7 +119,7 @@ public class CollectStreamMethod {
     }
 
     /**
-     * Пример группировки элементов потока в Map по длине, хранящую Mapу с группировкой по первому символу
+     * Пример группировки элементов потока в Map по длине, хранящую Mapу с группировкой по первому символу.
      */
     public void collectGroupingWithGrouping() {
         Map<Integer, Map<Character, List<String>>> result = Stream.of("Kate", "Kira", "Max", "Anna", "Li", "Leon")
@@ -132,7 +132,7 @@ public class CollectStreamMethod {
     }
 
     /**
-     * Пример разделения потока данных на 2 группы, в данном случае на чётные и нечётные числа
+     * Пример разделения потока данных на 2 группы, в данном случае на чётные и нечётные числа.
      */
     public void collectPartition() {
         Map<Boolean, List<Integer>> partitioned = Stream.of(1, 2, 3, 4, 5, 6)
@@ -142,7 +142,7 @@ public class CollectStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода collect с различными параметрами
+     * Демонстрация работы метода collect с различными параметрами.
      */
     public static void main(String[] args){
         CollectStreamMethod collectStreamMethod = new CollectStreamMethod();

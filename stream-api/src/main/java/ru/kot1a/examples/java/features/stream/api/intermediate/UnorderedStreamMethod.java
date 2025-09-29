@@ -14,7 +14,7 @@ import java.util.List;
 public class UnorderedStreamMethod {
 
     /**
-     * Пример выполнения unordered на последовательном и параллельном стриме
+     * Пример выполнения unordered на последовательном и параллельном стриме.
      */
     public void unordered() {
         List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
@@ -33,7 +33,7 @@ public class UnorderedStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода unordered
+     * Демонстрация работы метода unordered.
      */
     public static void main(String[] args){
         UnorderedStreamMethod unorderedStreamMethod = new UnorderedStreamMethod();

@@ -8,7 +8,7 @@ public class StreamOptionalMethod {
 
     /**
      * Метод преобразует Optional в Stream, содержащий ноль или один элемент. Это позволяет интегрировать Optional с
-     * Stream API и использовать все возможности потоков для дальнейшей обработки
+     * Stream API и использовать все возможности потоков для дальнейшей обработки.
      */
     public void stream() {
         Optional<List<String>> listOptional = Optional.of(List.of("Hello", "world", "!"));
@@ -25,7 +25,7 @@ public class StreamOptionalMethod {
     }
 
     /**
-     * Демонстрация работы метода stream
+     * Демонстрация работы метода stream.
      */
     public static void main(String[] args){
         StreamOptionalMethod streamOptionalMethod = new StreamOptionalMethod();

@@ -5,7 +5,7 @@ import java.util.Optional;
 public class OrElseOptionalMethod {
 
     /**
-     * Метод возвращает значение, если оно есть, иначе возвращает значение other переданное в аргумент метода
+     * Метод возвращает значение, если оно есть, иначе возвращает значение other переданное в аргумент метода.
      */
     public void orElse() {
         Optional<String> javaOptional = Optional.of("Java");
@@ -16,7 +16,7 @@ public class OrElseOptionalMethod {
     }
 
     /**
-     * Демонстрация работы метода orElse
+     * Демонстрация работы метода orElse.
      */
     public static void main(String[] args){
         OrElseOptionalMethod orElseOptionalMethod = new OrElseOptionalMethod();

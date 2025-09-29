@@ -6,7 +6,7 @@ import java.util.Optional;
 public class OrElseThrowOptionalMethod {
 
     /**
-     * Метод возвращает значение, если оно есть, иначе выбрасывает исключение
+     * Метод возвращает значение, если оно есть, иначе выбрасывает исключение.
      */
     public void orElseThrow() {
         Optional<String> javaOptional = Optional.of("Java");
@@ -21,7 +21,7 @@ public class OrElseThrowOptionalMethod {
     }
 
     /**
-     * Метод возвращает значение, если оно есть, иначе выбрасывает исключение переданное в аргумент exceptionSupplier
+     * Метод возвращает значение, если оно есть, иначе выбрасывает исключение переданное в аргумент exceptionSupplier.
      */
     public void orElseThrowCustomException() {
         Optional<String> javaOptional = Optional.of("Java");
@@ -36,7 +36,7 @@ public class OrElseThrowOptionalMethod {
     }
 
     /**
-     * Демонстрация работы метода orElseThrow
+     * Демонстрация работы метода orElseThrow.
      */
     public static void main(String[] args){
         OrElseThrowOptionalMethod orElseThrowOptionalMethod = new OrElseThrowOptionalMethod();

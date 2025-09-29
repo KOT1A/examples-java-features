@@ -5,7 +5,7 @@ import java.util.Optional;
 public class CreateOptional {
 
     /**
-     * Создаёт Optional с ненулевым значением. Выбрасывает NullPointerException, если value = null
+     * Создаёт Optional с ненулевым значением. Выбрасывает NullPointerException, если value = null.
      */
     public void of(){
         Optional<String> javaOptional = Optional.of("Java");
@@ -13,7 +13,7 @@ public class CreateOptional {
     }
 
     /**
-     * Создаёт Optional с возможным null. Если value = null, возвращает пустой Optional
+     * Создаёт Optional с возможным null. Если value = null, возвращает пустой Optional.
      */
     public void ofNullable() {
         Optional<String> nullOptional = Optional.ofNullable(null);
@@ -23,7 +23,7 @@ public class CreateOptional {
     }
 
     /**
-     * Возвращает пустой Optional
+     * Возвращает пустой Optional.
      */
     public void empty() {
         Optional<String> emptyOptional = Optional.empty();
@@ -31,7 +31,7 @@ public class CreateOptional {
     }
 
     /**
-     * Демонстрация создания Optional
+     * Демонстрация создания Optional.
      */
     public static void main(String[] args){
         CreateOptional createOptional = new CreateOptional();

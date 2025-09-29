@@ -6,7 +6,7 @@ public class FilterOptionalMethod {
 
     /**
      * Возвращает Optional, если значение удовлетворяет условию, которое передано в аргументе predicate, иначе пустой
-     * Optional. Стоит подчеркнуть, что если значение Optional равно null, то filter не выполняется
+     * Optional. Стоит подчеркнуть, что если значение Optional равно null, то filter не выполняется.
      */
     public void filter() {
         Optional<String> javaOptional = Optional.of("Java");
@@ -34,7 +34,7 @@ public class FilterOptionalMethod {
     }
 
     /**
-     * Демонстрация работы метода filter
+     * Демонстрация работы метода filter.
      */
     public static void main(String[] args){
         FilterOptionalMethod filterOptionalMethod = new FilterOptionalMethod();

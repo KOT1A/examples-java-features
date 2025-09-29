@@ -17,7 +17,7 @@ public class OrOptionalMethod {
     }
 
     /**
-     * Демонстрация работы метода or
+     * Демонстрация работы метода or.
      */
     public static void main(String[] args){
         OrOptionalMethod orOptionalMethod = new OrOptionalMethod();

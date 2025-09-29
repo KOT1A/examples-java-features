@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 public class ParallelStreamExampleApp {
 
     /**
-     * Метод выполняет некоторую операцию в нескольких потоках
+     * Метод выполняет некоторую операцию в нескольких потоках.
      */
     public void randomParallelPrintStream(List<Integer> list) {
         list.parallelStream()
@@ -29,7 +29,7 @@ public class ParallelStreamExampleApp {
     }
 
     /**
-     * Метод выполняет некоторую операцию в одном потоке
+     * Метод выполняет некоторую операцию в одном потоке.
      */
     public void printStream(List<Integer> list) {
         list.stream()
@@ -51,7 +51,7 @@ public class ParallelStreamExampleApp {
     }
 
     /**
-     * Демонстрация работы обычного и параллельного стрима
+     * Демонстрация работы обычного и параллельного стрима.
      */
     public static void main(String[] args){
         List<Integer> list = IntStream.range(0, 100_000).boxed().toList();

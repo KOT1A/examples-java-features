@@ -4,12 +4,12 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Метод limit возвращает новый поток, содержащий не больше
+ * Метод limit возвращает новый поток, содержащий не больше.
  */
 public class LimitStreamMethod {
 
     /**
-     * Пример использования метода limit
+     * Пример использования метода limit.
      */
     public void limit() {
         Integer[] arr = {1, 9, 2, 8, 3, 7, 4, 6, 5, 13, 14, 15, 10, 11, 12};
@@ -22,7 +22,7 @@ public class LimitStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода sorted
+     * Демонстрация работы метода sorted.
      */
     public static void main(String[] args){
         LimitStreamMethod limitStreamMethod = new LimitStreamMethod();

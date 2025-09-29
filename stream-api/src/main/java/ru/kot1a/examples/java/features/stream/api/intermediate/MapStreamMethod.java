@@ -9,7 +9,7 @@ import java.util.List;
 public class MapStreamMethod {
 
     /**
-     * Метод преобразует все элементы списка строк к верхнему регистру и выводит их в консоль
+     * Метод преобразует все элементы списка строк к верхнему регистру и выводит их в консоль.
      */
     public void map() {
         List<String> list = List.of("Aaaa", "abba", "Aa", "Bara", "Abba");
@@ -22,7 +22,7 @@ public class MapStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода map
+     * Демонстрация работы метода map.
      */
     public static void main(String[] args) {
         MapStreamMethod mapStreamMethod = new MapStreamMethod();

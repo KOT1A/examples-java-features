@@ -8,7 +8,7 @@ public class FlatMapOptionalMethod {
 
     /**
      * Метод применяет переданный в аргументе mapper и "разворачивает" результат (если mapper возвращает Optional),
-     * другими словами flatMap помогает избежать двойного Optional, если метод возвращает Optional
+     * другими словами flatMap помогает избежать двойного Optional, если метод возвращает Optional.
      */
     public void flatMap() {
         Optional<List<String>> listOptional = Optional.of(List.of("Hello", "world", "!"));
@@ -23,7 +23,7 @@ public class FlatMapOptionalMethod {
     }
 
     /**
-     * Демонстрация работы метода flatMap
+     * Демонстрация работы метода flatMap.
      */
     public static void main(String[] args){
         FlatMapOptionalMethod flatMapOptionalMethod = new FlatMapOptionalMethod();

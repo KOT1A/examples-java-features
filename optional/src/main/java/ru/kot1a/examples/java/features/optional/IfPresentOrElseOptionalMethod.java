@@ -5,7 +5,7 @@ import java.util.Optional;
 public class IfPresentOrElseOptionalMethod {
 
     /**
-     * Метод выполняет действие переданное в аргументе action над значением Optional, если оно есть, иначе emptyAction
+     * Метод выполняет действие переданное в аргументе action над значением Optional, если оно есть, иначе emptyAction.
      */
     public void ifPresentOrElse() {
         Optional<String> nameOptional = Optional.of("Java");
@@ -20,7 +20,7 @@ public class IfPresentOrElseOptionalMethod {
     }
 
     /**
-     * Демонстрация работы методов ifPresentOrElse
+     * Демонстрация работы методов ifPresentOrElse.
      */
     public static void main(String[] args){
         IfPresentOrElseOptionalMethod ifPresentOrElseOptionalMethod = new IfPresentOrElseOptionalMethod();

@@ -4,12 +4,12 @@ import java.util.List;
 import java.util.stream.Stream;
 
 /**
- * Метод peek ничего не меняет, а просто позволяет посмотреть, что творится внутри потока по пути
+ * Метод peek ничего не меняет, а просто позволяет посмотреть, что творится внутри потока по пути.
  */
 public class PeekStreamMethod {
 
     /**
-     * Пример работы метода peek с выводом промежуточных результатов в консоль
+     * Пример работы метода peek с выводом промежуточных результатов в консоль.
      */
     public List<String> peek() {
         return Stream.of("one", "two", "three")
@@ -22,7 +22,7 @@ public class PeekStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода flatMap
+     * Демонстрация работы метода flatMap.
      */
     public static void main(String[] args){
         PeekStreamMethod peekStreamMethod = new PeekStreamMethod();

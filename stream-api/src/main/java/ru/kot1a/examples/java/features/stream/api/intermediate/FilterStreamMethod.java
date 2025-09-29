@@ -12,7 +12,7 @@ public class FilterStreamMethod {
 
     /**
      * Метод отбирает по фильтру все элементы, у которых длинна больше 3 и начинаются они с буквы A и выводит их в
-     * консоль
+     * консоль.
      */
     public void filter() {
         String[] array = {"Aaaa", "abba", "Aa", "Bara", "Abba"};
@@ -27,7 +27,7 @@ public class FilterStreamMethod {
 
     /**
      * Метод отбирает по фильтру все элементы, у которых длинна больше 3 и начинаются они с буквы A и выводит их в
-     * консоль
+     * консоль.
      */
     public void doubleFilter() {
         String[] array = {"Aaaa", "abba", "Aa", "Bara", "Abba"};
@@ -41,7 +41,7 @@ public class FilterStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода filter
+     * Демонстрация работы метода filter.
      */
     public static void main(String[] args) {
         FilterStreamMethod filterStreamMethod = new FilterStreamMethod();

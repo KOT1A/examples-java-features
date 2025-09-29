@@ -24,7 +24,7 @@ public class OrElseGetOptionalMethod {
     }
 
     /**
-     * Демонстрация работы метода orElseGet
+     * Демонстрация работы метода orElseGet.
      */
     public static void main(String[] args){
         OrElseGetOptionalMethod orElseGetOptionalMethod = new OrElseGetOptionalMethod();

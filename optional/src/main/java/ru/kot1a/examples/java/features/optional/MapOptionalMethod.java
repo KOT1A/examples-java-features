@@ -7,7 +7,7 @@ public class MapOptionalMethod {
 
     /**
      * Метод применяет переданный аргумент mapper к значению, если оно есть, и возвращает Optional, иначе возвращает
-     * пустой Optional
+     * пустой Optional.
      */
     public void map() {
         Optional<List<String>> listOptional = Optional.of(List.of("Hello", "world", "!"));
@@ -28,7 +28,7 @@ public class MapOptionalMethod {
     }
 
     /**
-     * Демонстрация работы метода map
+     * Демонстрация работы метода map.
      */
     public static void main(String[] args){
         MapOptionalMethod mapOptionalMethod = new MapOptionalMethod();

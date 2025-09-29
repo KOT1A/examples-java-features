@@ -10,7 +10,7 @@ import java.util.List;
 public class DropWhileStreamMethod {
 
     /**
-     * Метод пропускает элементы пока не встретит слово stop
+     * Метод пропускает элементы пока не встретит слово stop.
      */
     public void dropWhile() {
         List<String> words = List.of("a", "b", "c", "stop", "d", "e");
@@ -23,7 +23,7 @@ public class DropWhileStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода dropWhile
+     * Демонстрация работы метода dropWhile.
      */
     public static void main(String[] args) {
         DropWhileStreamMethod dropWhileStreamMethod = new DropWhileStreamMethod();

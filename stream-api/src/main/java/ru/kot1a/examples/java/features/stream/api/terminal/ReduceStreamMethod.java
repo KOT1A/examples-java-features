@@ -10,7 +10,7 @@ public class ReduceStreamMethod {
 
     /**
      * Метод складывает значения списка используя метод reduce и проверяет туже сумму сложением через цикл, в консоль
-     * выводит результат
+     * выводит результат.
      */
     public void reduceWithoutStartValue(){
         List<Double> list = List.of(10.0, 5.0, 15.0, 3.0);
@@ -29,7 +29,7 @@ public class ReduceStreamMethod {
 
     /**
      * Метод складывает значения списка с начальным результатом используя метод reduce и проверяет туже сумму сложением
-     * через цикл, в консоль выводит результат
+     * через цикл, в консоль выводит результат.
      */
     public void reduceWithStartValue(Double startValue){
         List<Double> list = List.of(10.0, 5.0, 15.0, 3.0);
@@ -46,7 +46,7 @@ public class ReduceStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода reduce
+     * Демонстрация работы метода reduce.
      */
     public static void main(String[] args){
         ReduceStreamMethod reduceStreamMethod = new ReduceStreamMethod();

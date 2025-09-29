@@ -6,12 +6,12 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * Метод flatMap трансформирует объект в поток, а затем соединяет эти потоки в один
+ * Метод flatMap трансформирует объект в поток, а затем соединяет эти потоки в один.
  */
 public class FlatMapStreamMethod {
 
     /**
-     * Преобразуем список строк в слова
+     * Преобразуем список строк в слова.
      */
     public void flatMap() {
         List<String> sentences = List.of(
@@ -27,7 +27,7 @@ public class FlatMapStreamMethod {
     }
 
     /**
-     * Преобразуем список списков строк в один список
+     * Преобразуем список списков строк в один список.
      */
     public void flatMapWithListOfList() {
         List<List<String>> listOfListWords = new ArrayList<>();
@@ -43,7 +43,7 @@ public class FlatMapStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода flatMap
+     * Демонстрация работы метода flatMap.
      */
     public static void main(String[] args){
         FlatMapStreamMethod flatMapStreamMethod = new FlatMapStreamMethod();

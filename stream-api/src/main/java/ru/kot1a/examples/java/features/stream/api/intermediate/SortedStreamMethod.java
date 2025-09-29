@@ -5,12 +5,12 @@ import java.util.List;
 
 /**
  * Метод sorted в Java Stream API относится к промежуточным операциям и является stateful (он должен видеть весь
- * поток, чтобы отсортировать)
+ * поток, чтобы отсортировать).
  */
 public class SortedStreamMethod {
 
     /**
-     * Пример работы сортировки
+     * Пример работы сортировки.
      */
     public void sorted() {
         Integer[] arr = {1, 9, 2, 8, 3, 7, 4, 6, 5, 13, 14, 15, 10, 11, 12};
@@ -22,7 +22,7 @@ public class SortedStreamMethod {
     }
 
     /**
-     * Пример работы сортировки с указанием comparator
+     * Пример работы сортировки с указанием comparator.
      */
     public void sortedWithComparator() {
         Integer[] arr = {1, 9, 2, 8, 3, 7, 4, 6, 5, 13, 14, 15, 10, 11, 12};
@@ -35,7 +35,7 @@ public class SortedStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода sorted
+     * Демонстрация работы метода sorted.
      */
     public static void main(String[] args){
         SortedStreamMethod sortedStreamMethod = new SortedStreamMethod();

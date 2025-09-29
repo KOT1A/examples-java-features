@@ -5,12 +5,12 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Примеры terminal операций Java Stream API: count, min, max, forEach, toArray, match, find, iterator
+ * Примеры terminal операций Java Stream API: count, min, max, forEach, toArray, match, find, iterator.
  */
 public class OtherTerminalStreamMethod {
 
     /**
-     * Метод count выводит количество элементов в списке
+     * Метод count выводит количество элементов в списке.
      */
     public void count() {
         List<String> words = Arrays.asList("java", "stream", "api");
@@ -21,7 +21,7 @@ public class OtherTerminalStreamMethod {
     }
 
     /**
-     * Метод min ищем минимальный элемент списка
+     * Метод min ищем минимальный элемент списка.
      */
     public void min() {
         List<Integer> numbers = Arrays.asList(10, 3, 45, 2, 18);
@@ -34,7 +34,7 @@ public class OtherTerminalStreamMethod {
     }
 
     /**
-     * Метод max ищем максимальный элемент списка
+     * Метод max ищем максимальный элемент списка.
      */
     public void max() {
         List<Integer> numbers = Arrays.asList(10, 3, 45, 2, 18);
@@ -47,7 +47,7 @@ public class OtherTerminalStreamMethod {
     }
 
     /**
-     * Метод forEach выполняет действие для каждого элемента (обычно используется для вывода)
+     * Метод forEach выполняет действие для каждого элемента (обычно используется для вывода).
      */
     public void forEach() {
         List<String> words = Arrays.asList("one", "two", "three");
@@ -56,7 +56,7 @@ public class OtherTerminalStreamMethod {
     }
 
     /**
-     * Метод toArray преобразует поток в массив
+     * Метод toArray преобразует поток в массив.
      */
     public void toArray() {
         List<String> words = Arrays.asList("one", "two", "three");
@@ -67,7 +67,7 @@ public class OtherTerminalStreamMethod {
     }
 
     /**
-     * Методы anyMatch, allMatch, noneMatch проверяют условия на элементах потока
+     * Методы anyMatch, allMatch, noneMatch проверяют условия на элементах потока.
      */
     public void match() {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
@@ -95,7 +95,7 @@ public class OtherTerminalStreamMethod {
 
     /**
      * Через методы findFirst или findAny, можно найти первое вхождение или любое вхождение элемента потока
-     * соответственно
+     * соответственно.
      */
     public void find() {
         List<String> words = Arrays.asList("one", "two", "three");
@@ -108,7 +108,7 @@ public class OtherTerminalStreamMethod {
     }
 
     /**
-     * Метод iterator возвращает iterator, которым можно пройтись по коллекции
+     * Метод iterator возвращает iterator, которым можно пройтись по коллекции.
      */
     public void iterator() {
         List<String> words = Arrays.asList("one", "two", "three");
@@ -119,7 +119,7 @@ public class OtherTerminalStreamMethod {
     }
 
     /**
-     * Демонстрация работы терминальных методов
+     * Демонстрация работы терминальных методов.
      */
     public static void main(String[] args){
         OtherTerminalStreamMethod otherTerminalStreamMethod = new OtherTerminalStreamMethod();

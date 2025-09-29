@@ -7,7 +7,7 @@ public class GetOptionalMethod {
 
     /**
      * Метод возвращает значение, если оно присутствует, иначе, если Optional пуст, то выбрасывает
-     * NoSuchElementException
+     * NoSuchElementException.
      */
     public void get() {
         Optional<String> javaOptional = Optional.of("Java");
@@ -22,7 +22,7 @@ public class GetOptionalMethod {
     }
 
     /**
-     * Демонстрация работы метода get
+     * Демонстрация работы метода get.
      */
     public static void main(String[] args){
         GetOptionalMethod getOptionalMethod = new GetOptionalMethod();

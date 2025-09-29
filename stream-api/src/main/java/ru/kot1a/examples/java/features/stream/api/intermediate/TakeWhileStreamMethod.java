@@ -3,12 +3,12 @@ package ru.kot1a.examples.java.features.stream.api.intermediate;
 import java.util.List;
 
 /**
- * Метод takeWhile берёт элементы из стрима с начала, пока выполняется условие
+ * Метод takeWhile берёт элементы из стрима с начала, пока выполняется условие.
  */
 public class TakeWhileStreamMethod {
 
     /**
-     * Метод берёт элементы до тех пор, пока не встретит 0
+     * Метод берёт элементы до тех пор, пока не встретит 0.
      */
     public void takeWhile() {
         List<Integer> numbers = List.of(1, 2, 3, 4, 5, 0, 6, 7);
@@ -21,7 +21,7 @@ public class TakeWhileStreamMethod {
     }
 
     /**
-     * Демонстрация работы метода takeWhile
+     * Демонстрация работы метода takeWhile.
      */
     public static void main(String[] args){
         TakeWhileStreamMethod takeWhileStreamMethod = new TakeWhileStreamMethod();
