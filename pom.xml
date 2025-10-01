@@ -12,6 +12,7 @@
     <modules>
         <module>stream-api</module>
         <module>optional</module>
+        <module>enum</module>
     </modules>
 
     <properties>
