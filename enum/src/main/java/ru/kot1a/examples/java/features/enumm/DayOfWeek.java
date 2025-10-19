@@ -1,7 +1,9 @@
 package ru.kot1a.examples.java.features.enumm;
 
+import java.util.Locale;
+
 /**
- * Как и у обычного класса у enum могут быть обычные поля, константы и статические поля, константы.
+ * Enum является обычным классом с ограниченным количеством экземпляров и некоторым набором дополнительных методов
  */
 public enum DayOfWeek {
 
@@ -38,6 +40,10 @@ public enum DayOfWeek {
 
     public String getAbbr(){
         return abbr;
+    }
+
+    public String toStringEn() {
+        return DAY_OF_WEEK_EN + this.name().toLowerCase(Locale.ROOT) + "[" + this.abbr + "]";
     }
 
     @Override

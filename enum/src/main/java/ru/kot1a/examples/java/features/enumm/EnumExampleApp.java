@@ -3,7 +3,7 @@ package ru.kot1a.examples.java.features.enumm;
 public class EnumExampleApp {
 
     /**
-     * Встроенный метод, который преобразует строку в enum
+     * Преобразует строку в enum, используя стандартный метод
      */
     public void valueOf() {
         DayOfWeek monday = DayOfWeek.valueOf("MONDAY");
@@ -11,7 +11,7 @@ public class EnumExampleApp {
     }
 
     /**
-     * Встроенный метод, который возвращает имя enum
+     * Вызывает встроенный метод, который возвращает enum в виде строки
      */
     public void name() {
         String tuesday = DayOfWeek.TUESDAY.name();
@@ -19,7 +19,7 @@ public class EnumExampleApp {
     }
 
     /**
-     * Встроенный метод, который возвращает порядковый номер enum
+     * Вызывает встроенный метод, чтобы узнать порядковый номер enum
      */
     public void ordinal() {
         int wednesday = DayOfWeek.WEDNESDAY.ordinal();
@@ -27,7 +27,7 @@ public class EnumExampleApp {
     }
 
     /**
-     * Метод выводит все элементы enum
+     * Выводит все элементы enum
      */
     public void forEach() {
         System.out.println("Выводим все элементы enum:");
@@ -37,7 +37,17 @@ public class EnumExampleApp {
     }
 
     /**
-     * Встроенный метод, который возвращает порядковый номер enum
+     * Выводит все элементы enum, используя добавленный метод
+     */
+    public void forEachEn() {
+        System.out.println("Выводим все элементы(EN) enum:");
+        for (DayOfWeek d : DayOfWeek.values()) {
+            System.out.println(d.toStringEn());
+        }
+    }
+
+    /**
+     * Меняет состояние enum через добавленный метод
      */
     public void changeField() {
         System.out.println("russianNameOfWeek - " + DayOfWeek.WEDNESDAY.getRussianNameOfWeek());
@@ -54,6 +64,7 @@ public class EnumExampleApp {
         enumExampleApp.name();
         enumExampleApp.ordinal();
         enumExampleApp.forEach();
+        enumExampleApp.forEachEn();
         enumExampleApp.changeField();
     }
 }
