@@ -5,7 +5,7 @@ import java.util.Locale;
 /**
  * Enum является обычным классом с ограниченным количеством экземпляров и некоторым набором дополнительных методов
  */
-public enum DayOfWeek {
+public enum DayOfWeek implements EnglishPrint{
 
     MONDAY("Понедельник", "MON"),
     TUESDAY("Вторник", "TUE"),
@@ -42,6 +42,7 @@ public enum DayOfWeek {
         return abbr;
     }
 
+    @Override
     public String toStringEn() {
         return DAY_OF_WEEK_EN + this.name().toLowerCase(Locale.ROOT) + "[" + this.abbr + "]";
     }
